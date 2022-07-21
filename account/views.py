@@ -1,8 +1,5 @@
 
-from msilib.schema import Error
-from multiprocessing import context
-from re import A
-from urllib import request
+
 from django.core.mail import EmailMessage
 from django.shortcuts import redirect, render, reverse
 from django.template.loader import render_to_string
